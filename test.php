@@ -1,4 +1,4 @@
 <?php
 echo "hi";
-echo "ranjit";
+echo "summ";
  ?>
