@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="order_number" required="true" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_ORDER_NUMBER" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_ORDER_NUMBER" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_ORDER_NUMBER"/>
+    <field name="username" required="true" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_USERNAME" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_USERNAME" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_USERNAME"/>
+    <field name="from_address" required="true" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_FROM_ADDRESS" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_FROM_ADDRESS" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_FROM_ADDRESS"/>
+    <field name="to_address" required="true" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_TO_ADDRESS" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_TO_ADDRESS" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_TO_ADDRESS"/>
+    <field name="subject" required="true" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_SUBJECT" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_SUBJECT" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_SUBJECT"/>
+    <field name="mail_body" required="true" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_MAIL_BODY" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_MAIL_BODY" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_MAIL_BODY"/>
+    <field name="created_at" default="0000-00-00 00:00:00" type="calendar" class="inputbox" filter="safehtml" format="%Y-%m-%d %H:%M:%S" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_CREATED_AT" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_CREATED_AT" hidden="true" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_CREATED_AT"/>
+    <field name="downloadlink" required="true" label="COM_LPDFPARSER_FORM_LBL_PDFPARSER_DOWNLOADLINK" description="COM_LPDFPARSER_FORM_DESC_PDFPARSER_DOWNLOADLINK" hint="COM_LPDFPARSER_FORM_LBL_PDFPARSER_DOWNLOADLINK"/>
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>
